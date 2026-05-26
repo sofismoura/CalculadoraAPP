@@ -32,7 +32,7 @@ O aplicativo foi desenvolvido para praticar lógica de programação e construç
 * ➗ Divisão
 * 🎓 Cálculo de média ponderada
 * 📱 Exibição dinâmica de resultados
-* 🎨 Interface moderna em dark mode
+* 🎨 Interface moderna em cute mode
 
 ---
 
