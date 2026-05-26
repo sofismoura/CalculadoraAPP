@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🎀 Calculadora Cute 🎀"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#E91E63"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/edtNumero1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número 1"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:textColor="#880E4F"
+            android:textColorHint="#C2185B"
+            android:backgroundTint="#F8BBD0"
+            android:layout_marginBottom="14dp"/>
+
+        <EditText
+            android:id="@+id/edtNumero2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número 2"
+            android:inputType="numberDecimal"
+            android:padding="14dp"
+            android:textColor="#880E4F"
+            android:textColorHint="#C2185B"
+            android:backgroundTint="#F8BBD0"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnSomar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➕ Somar"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#F48FB1"/>
+
+        <Button
+            android:id="@+id/btnSubtrair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➖ Subtrair"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#F8BBD0"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnMultiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✖ Multiplicar"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#F06292"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnDividir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="➗ Dividir"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#EC407A"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🌸 Média Ponderada 🌸"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#D81B60"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/edtNota1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 1"
+            android:inputType="numberDecimal"
+            android:textColor="#880E4F"
+            android:textColorHint="#C2185B"
+            android:backgroundTint="#F8BBD0"/>
+
+        <EditText
+            android:id="@+id/edtPeso1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso 1"
+            android:inputType="numberDecimal"
+            android:textColor="#880E4F"
+            android:textColorHint="#C2185B"
+            android:backgroundTint="#F8BBD0"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/edtNota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nota 2"
+            android:inputType="numberDecimal"
+            android:textColor="#880E4F"
+            android:textColorHint="#C2185B"
+            android:backgroundTint="#F8BBD0"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/edtPeso2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Peso 2"
+            android:inputType="numberDecimal"
+            android:textColor="#880E4F"
+            android:textColorHint="#C2185B"
+            android:backgroundTint="#F8BBD0"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btnMedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Média"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#FF80AB"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/txtResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resultado"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#AD1457"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</ScrollView>
